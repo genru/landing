@@ -848,6 +848,9 @@ a.btn-cta {
   .team-section .item-inner {
     min-height: inherit;
   }
+  .contact-section .phone-call-number {
+    display: none;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -869,6 +872,9 @@ a.btn-cta {
   }
   .team-section .item-inner {
     min-height: 515px;
+  }
+  .contact-section .btn-cta {
+    display: none;
   }
 }
 /* Medium devices (desktops, 992px and up) */
